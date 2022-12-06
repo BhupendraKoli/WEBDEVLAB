@@ -1,0 +1,42 @@
+/* element selecoter */
+body{
+    background-color: rgb(22, 104, 106);
+}
+
+h1{
+    font-size: 20px;
+}
+p{
+    font-size: 20px;
+}
+h2{
+    font-size: 20px;
+} 
+h1,p,h2{
+    font-size: 40px;
+    
+    
+}
+/* child selecoter */
+p>i>u{
+    color: rgb(198, 240, 10);
+}
+/* id selecoter */
+#love{
+    color: rgb(2, 2, 2);
+}
+/* class selecoter */
+.aa{
+    border: 2px solid black; 
+    border-style: groove;
+    box-shadow: 0 10px 10px rgb(192, 11, 11);
+    border-radius: 20px 80px;
+    margin-left: 300px ;
+    margin-right: 300px;
+    margin-bottom: 50px;   
+}
+/* universal selecoter */
+*{
+    text-align: center;
+}
+    
